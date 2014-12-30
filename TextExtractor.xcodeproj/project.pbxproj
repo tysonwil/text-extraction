@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8F6B6E211A2160F400C51051 /* TesseractOCR.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F6B6E201A2160F400C51051 /* TesseractOCR.framework */; };
+		8F6B6E241A21612200C51051 /* libstdc++.6.0.9.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F6B6E231A21612200C51051 /* libstdc++.6.0.9.dylib */; };
+		8F6B6E2F1A2162D000C51051 /* CoreImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F6B6E2E1A2162D000C51051 /* CoreImage.framework */; };
 		8FC0B03B1A215A71009A8BAD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FC0B03A1A215A71009A8BAD /* main.m */; };
 		8FC0B03E1A215A71009A8BAD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FC0B03D1A215A71009A8BAD /* AppDelegate.m */; };
 		8FC0B0411A215A71009A8BAD /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FC0B0401A215A71009A8BAD /* ViewController.m */; };
@@ -14,6 +17,8 @@
 		8FC0B0461A215A71009A8BAD /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8FC0B0451A215A71009A8BAD /* Images.xcassets */; };
 		8FC0B0491A215A71009A8BAD /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8FC0B0471A215A71009A8BAD /* LaunchScreen.xib */; };
 		8FC0B0551A215A71009A8BAD /* TextExtractorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FC0B0541A215A71009A8BAD /* TextExtractorTests.m */; };
+		8FCA1E081A52AC22004910E9 /* image_sample.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8FCA1E071A52AC22004910E9 /* image_sample.jpg */; };
+		8FCA1E0C1A52B56B004910E9 /* tessdata in Resources */ = {isa = PBXBuildFile; fileRef = 8FCA1E0B1A52B56B004910E9 /* tessdata */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,6 +32,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8F6B6E201A2160F400C51051 /* TesseractOCR.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = TesseractOCR.framework; path = "../../Documents/Tesseract-OCR-iOS/Products/TesseractOCR.framework"; sourceTree = "<group>"; };
+		8F6B6E231A21612200C51051 /* libstdc++.6.0.9.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libstdc++.6.0.9.dylib"; path = "usr/lib/libstdc++.6.0.9.dylib"; sourceTree = SDKROOT; };
+		8F6B6E2E1A2162D000C51051 /* CoreImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreImage.framework; path = System/Library/Frameworks/CoreImage.framework; sourceTree = SDKROOT; };
 		8FC0B0351A215A71009A8BAD /* TextExtractor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TextExtractor.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8FC0B0391A215A71009A8BAD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8FC0B03A1A215A71009A8BAD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -40,6 +48,8 @@
 		8FC0B04E1A215A71009A8BAD /* TextExtractorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TextExtractorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8FC0B0531A215A71009A8BAD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8FC0B0541A215A71009A8BAD /* TextExtractorTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TextExtractorTests.m; sourceTree = "<group>"; };
+		8FCA1E071A52AC22004910E9 /* image_sample.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = image_sample.jpg; sourceTree = "<group>"; };
+		8FCA1E0B1A52B56B004910E9 /* tessdata */ = {isa = PBXFileReference; lastKnownFileType = folder; path = tessdata; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +57,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8F6B6E2F1A2162D000C51051 /* CoreImage.framework in Frameworks */,
+				8F6B6E241A21612200C51051 /* libstdc++.6.0.9.dylib in Frameworks */,
+				8F6B6E211A2160F400C51051 /* TesseractOCR.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -60,12 +73,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8F6B6E221A2160F900C51051 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8F6B6E2E1A2162D000C51051 /* CoreImage.framework */,
+				8F6B6E231A21612200C51051 /* libstdc++.6.0.9.dylib */,
+				8F6B6E201A2160F400C51051 /* TesseractOCR.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		8FC0B02C1A215A71009A8BAD = {
 			isa = PBXGroup;
 			children = (
 				8FC0B0371A215A71009A8BAD /* TextExtractor */,
 				8FC0B0511A215A71009A8BAD /* TextExtractorTests */,
 				8FC0B0361A215A71009A8BAD /* Products */,
+				8F6B6E221A2160F900C51051 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -81,6 +105,7 @@
 		8FC0B0371A215A71009A8BAD /* TextExtractor */ = {
 			isa = PBXGroup;
 			children = (
+				8FCA1E0B1A52B56B004910E9 /* tessdata */,
 				8FC0B03C1A215A71009A8BAD /* AppDelegate.h */,
 				8FC0B03D1A215A71009A8BAD /* AppDelegate.m */,
 				8FC0B03F1A215A71009A8BAD /* ViewController.h */,
@@ -96,6 +121,7 @@
 		8FC0B0381A215A71009A8BAD /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				8FCA1E071A52AC22004910E9 /* image_sample.jpg */,
 				8FC0B0391A215A71009A8BAD /* Info.plist */,
 				8FC0B03A1A215A71009A8BAD /* main.m */,
 			);
@@ -200,6 +226,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				8FC0B0441A215A71009A8BAD /* Main.storyboard in Resources */,
+				8FCA1E081A52AC22004910E9 /* image_sample.jpg in Resources */,
+				8FCA1E0C1A52B56B004910E9 /* tessdata in Resources */,
 				8FC0B0491A215A71009A8BAD /* LaunchScreen.xib in Resources */,
 				8FC0B0461A215A71009A8BAD /* Images.xcassets in Resources */,
 			);
@@ -345,8 +373,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_CXX_LIBRARY = "compiler-default";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"/Users/tyson/Documents/Tesseract-OCR-iOS/Products",
+				);
 				INFOPLIST_FILE = TextExtractor/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = "-lstdc++";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -355,8 +389,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_CXX_LIBRARY = "compiler-default";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"/Users/tyson/Documents/Tesseract-OCR-iOS/Products",
+				);
 				INFOPLIST_FILE = TextExtractor/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = "-lstdc++";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -414,6 +454,7 @@
 				8FC0B05A1A215A71009A8BAD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8FC0B05B1A215A71009A8BAD /* Build configuration list for PBXNativeTarget "TextExtractorTests" */ = {
 			isa = XCConfigurationList;
@@ -422,6 +463,7 @@
 				8FC0B05D1A215A71009A8BAD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

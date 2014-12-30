@@ -7,8 +7,13 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <TesseractOCR/TesseractOCR.h>
 
-@interface ViewController : UIViewController
+@interface ViewController : UIViewController <G8TesseractDelegate>
+
+@property (weak, nonatomic) IBOutlet UIImageView *imageToRecognize;
+
+
 
 
 @end
