@@ -7,9 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		8F6B6E211A2160F400C51051 /* TesseractOCR.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F6B6E201A2160F400C51051 /* TesseractOCR.framework */; };
 		8F6B6E241A21612200C51051 /* libstdc++.6.0.9.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F6B6E231A21612200C51051 /* libstdc++.6.0.9.dylib */; };
 		8F6B6E2F1A2162D000C51051 /* CoreImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F6B6E2E1A2162D000C51051 /* CoreImage.framework */; };
+		8FBA2BDC1A574BD400EB48A5 /* OCR_Font_Example.gif in Resources */ = {isa = PBXBuildFile; fileRef = 8FBA2BDA1A574BD400EB48A5 /* OCR_Font_Example.gif */; };
+		8FBA2BDD1A574BD400EB48A5 /* sample1.png in Resources */ = {isa = PBXBuildFile; fileRef = 8FBA2BDB1A574BD400EB48A5 /* sample1.png */; };
+		8FBA2BE11A574C8500EB48A5 /* french_text.gif in Resources */ = {isa = PBXBuildFile; fileRef = 8FBA2BDF1A574C8500EB48A5 /* french_text.gif */; };
+		8FBA2BE21A574C8500EB48A5 /* MauriceFr1.gif in Resources */ = {isa = PBXBuildFile; fileRef = 8FBA2BE01A574C8500EB48A5 /* MauriceFr1.gif */; };
+		8FBA2BE71A574CB500EB48A5 /* love-spanish-text-Favim.com-645990.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8FBA2BE41A574CB500EB48A5 /* love-spanish-text-Favim.com-645990.jpg */; };
+		8FBA2BE81A574CB500EB48A5 /* SampleText2_u_v.GIF in Resources */ = {isa = PBXBuildFile; fileRef = 8FBA2BE51A574CB500EB48A5 /* SampleText2_u_v.GIF */; };
+		8FBA2BE91A574CB500EB48A5 /* spa.png in Resources */ = {isa = PBXBuildFile; fileRef = 8FBA2BE61A574CB500EB48A5 /* spa.png */; };
+		8FBA2BEC1A574E2B00EB48A5 /* FishboneTextSample_6245.gif in Resources */ = {isa = PBXBuildFile; fileRef = 8FBA2BEB1A574E2B00EB48A5 /* FishboneTextSample_6245.gif */; };
 		8FC0B03B1A215A71009A8BAD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FC0B03A1A215A71009A8BAD /* main.m */; };
 		8FC0B03E1A215A71009A8BAD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FC0B03D1A215A71009A8BAD /* AppDelegate.m */; };
 		8FC0B0411A215A71009A8BAD /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FC0B0401A215A71009A8BAD /* ViewController.m */; };
@@ -18,7 +25,8 @@
 		8FC0B0491A215A71009A8BAD /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8FC0B0471A215A71009A8BAD /* LaunchScreen.xib */; };
 		8FC0B0551A215A71009A8BAD /* TextExtractorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FC0B0541A215A71009A8BAD /* TextExtractorTests.m */; };
 		8FCA1E081A52AC22004910E9 /* image_sample.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8FCA1E071A52AC22004910E9 /* image_sample.jpg */; };
-		8FCA1E0C1A52B56B004910E9 /* tessdata in Resources */ = {isa = PBXBuildFile; fileRef = 8FCA1E0B1A52B56B004910E9 /* tessdata */; };
+		8FE158271A57588A00D43E15 /* TesseractOCR.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8FE158261A57588A00D43E15 /* TesseractOCR.framework */; };
+		8FE158291A5758E300D43E15 /* tessdata in Resources */ = {isa = PBXBuildFile; fileRef = 8FE158281A5758E300D43E15 /* tessdata */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,9 +40,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		8F6B6E201A2160F400C51051 /* TesseractOCR.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = TesseractOCR.framework; path = "../../Documents/Tesseract-OCR-iOS/Products/TesseractOCR.framework"; sourceTree = "<group>"; };
 		8F6B6E231A21612200C51051 /* libstdc++.6.0.9.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libstdc++.6.0.9.dylib"; path = "usr/lib/libstdc++.6.0.9.dylib"; sourceTree = SDKROOT; };
 		8F6B6E2E1A2162D000C51051 /* CoreImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreImage.framework; path = System/Library/Frameworks/CoreImage.framework; sourceTree = SDKROOT; };
+		8FBA2BDA1A574BD400EB48A5 /* OCR_Font_Example.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = OCR_Font_Example.gif; sourceTree = "<group>"; };
+		8FBA2BDB1A574BD400EB48A5 /* sample1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sample1.png; sourceTree = "<group>"; };
+		8FBA2BDF1A574C8500EB48A5 /* french_text.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = french_text.gif; sourceTree = "<group>"; };
+		8FBA2BE01A574C8500EB48A5 /* MauriceFr1.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = MauriceFr1.gif; sourceTree = "<group>"; };
+		8FBA2BE41A574CB500EB48A5 /* love-spanish-text-Favim.com-645990.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "love-spanish-text-Favim.com-645990.jpg"; sourceTree = "<group>"; };
+		8FBA2BE51A574CB500EB48A5 /* SampleText2_u_v.GIF */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = SampleText2_u_v.GIF; sourceTree = "<group>"; };
+		8FBA2BE61A574CB500EB48A5 /* spa.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = spa.png; sourceTree = "<group>"; };
+		8FBA2BEB1A574E2B00EB48A5 /* FishboneTextSample_6245.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = FishboneTextSample_6245.gif; sourceTree = "<group>"; };
 		8FC0B0351A215A71009A8BAD /* TextExtractor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TextExtractor.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8FC0B0391A215A71009A8BAD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8FC0B03A1A215A71009A8BAD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -49,7 +64,8 @@
 		8FC0B0531A215A71009A8BAD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8FC0B0541A215A71009A8BAD /* TextExtractorTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TextExtractorTests.m; sourceTree = "<group>"; };
 		8FCA1E071A52AC22004910E9 /* image_sample.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = image_sample.jpg; sourceTree = "<group>"; };
-		8FCA1E0B1A52B56B004910E9 /* tessdata */ = {isa = PBXFileReference; lastKnownFileType = folder; path = tessdata; sourceTree = "<group>"; };
+		8FE158261A57588A00D43E15 /* TesseractOCR.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = TesseractOCR.framework; sourceTree = "<group>"; };
+		8FE158281A5758E300D43E15 /* tessdata */ = {isa = PBXFileReference; lastKnownFileType = folder; path = tessdata; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,8 +74,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				8F6B6E2F1A2162D000C51051 /* CoreImage.framework in Frameworks */,
+				8FE158271A57588A00D43E15 /* TesseractOCR.framework in Frameworks */,
 				8F6B6E241A21612200C51051 /* libstdc++.6.0.9.dylib in Frameworks */,
-				8F6B6E211A2160F400C51051 /* TesseractOCR.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,9 +94,49 @@
 			children = (
 				8F6B6E2E1A2162D000C51051 /* CoreImage.framework */,
 				8F6B6E231A21612200C51051 /* libstdc++.6.0.9.dylib */,
-				8F6B6E201A2160F400C51051 /* TesseractOCR.framework */,
+				8FE158261A57588A00D43E15 /* TesseractOCR.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8FBA2BD91A5749FF00EB48A5 /* ImageSamples */ = {
+			isa = PBXGroup;
+			children = (
+				8FBA2BEA1A574CC100EB48A5 /* Spanish */,
+				8FBA2BE31A574C8D00EB48A5 /* French */,
+				8FBA2BDE1A574BF400EB48A5 /* English */,
+			);
+			name = ImageSamples;
+			sourceTree = "<group>";
+		};
+		8FBA2BDE1A574BF400EB48A5 /* English */ = {
+			isa = PBXGroup;
+			children = (
+				8FBA2BEB1A574E2B00EB48A5 /* FishboneTextSample_6245.gif */,
+				8FCA1E071A52AC22004910E9 /* image_sample.jpg */,
+				8FBA2BDA1A574BD400EB48A5 /* OCR_Font_Example.gif */,
+				8FBA2BDB1A574BD400EB48A5 /* sample1.png */,
+			);
+			name = English;
+			sourceTree = "<group>";
+		};
+		8FBA2BE31A574C8D00EB48A5 /* French */ = {
+			isa = PBXGroup;
+			children = (
+				8FBA2BDF1A574C8500EB48A5 /* french_text.gif */,
+				8FBA2BE01A574C8500EB48A5 /* MauriceFr1.gif */,
+			);
+			name = French;
+			sourceTree = "<group>";
+		};
+		8FBA2BEA1A574CC100EB48A5 /* Spanish */ = {
+			isa = PBXGroup;
+			children = (
+				8FBA2BE41A574CB500EB48A5 /* love-spanish-text-Favim.com-645990.jpg */,
+				8FBA2BE51A574CB500EB48A5 /* SampleText2_u_v.GIF */,
+				8FBA2BE61A574CB500EB48A5 /* spa.png */,
+			);
+			name = Spanish;
 			sourceTree = "<group>";
 		};
 		8FC0B02C1A215A71009A8BAD = {
@@ -105,7 +161,7 @@
 		8FC0B0371A215A71009A8BAD /* TextExtractor */ = {
 			isa = PBXGroup;
 			children = (
-				8FCA1E0B1A52B56B004910E9 /* tessdata */,
+				8FE158281A5758E300D43E15 /* tessdata */,
 				8FC0B03C1A215A71009A8BAD /* AppDelegate.h */,
 				8FC0B03D1A215A71009A8BAD /* AppDelegate.m */,
 				8FC0B03F1A215A71009A8BAD /* ViewController.h */,
@@ -121,7 +177,7 @@
 		8FC0B0381A215A71009A8BAD /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				8FCA1E071A52AC22004910E9 /* image_sample.jpg */,
+				8FBA2BD91A5749FF00EB48A5 /* ImageSamples */,
 				8FC0B0391A215A71009A8BAD /* Info.plist */,
 				8FC0B03A1A215A71009A8BAD /* main.m */,
 			);
@@ -226,10 +282,18 @@
 			buildActionMask = 2147483647;
 			files = (
 				8FC0B0441A215A71009A8BAD /* Main.storyboard in Resources */,
+				8FBA2BE21A574C8500EB48A5 /* MauriceFr1.gif in Resources */,
+				8FE158291A5758E300D43E15 /* tessdata in Resources */,
+				8FBA2BDC1A574BD400EB48A5 /* OCR_Font_Example.gif in Resources */,
+				8FBA2BE81A574CB500EB48A5 /* SampleText2_u_v.GIF in Resources */,
 				8FCA1E081A52AC22004910E9 /* image_sample.jpg in Resources */,
-				8FCA1E0C1A52B56B004910E9 /* tessdata in Resources */,
+				8FBA2BDD1A574BD400EB48A5 /* sample1.png in Resources */,
+				8FBA2BE91A574CB500EB48A5 /* spa.png in Resources */,
+				8FBA2BE11A574C8500EB48A5 /* french_text.gif in Resources */,
 				8FC0B0491A215A71009A8BAD /* LaunchScreen.xib in Resources */,
 				8FC0B0461A215A71009A8BAD /* Images.xcassets in Resources */,
+				8FBA2BE71A574CB500EB48A5 /* love-spanish-text-Favim.com-645990.jpg in Resources */,
+				8FBA2BEC1A574E2B00EB48A5 /* FishboneTextSample_6245.gif in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -377,6 +441,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"/Users/tyson/Documents/Tesseract-OCR-iOS/Products",
+					"$(PROJECT_DIR)",
 				);
 				INFOPLIST_FILE = TextExtractor/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -393,6 +458,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"/Users/tyson/Documents/Tesseract-OCR-iOS/Products",
+					"$(PROJECT_DIR)",
 				);
 				INFOPLIST_FILE = TextExtractor/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
