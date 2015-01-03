@@ -9,7 +9,9 @@
 #import <UIKit/UIKit.h>
 #import <TesseractOCR/TesseractOCR.h>
 
-@interface ViewController : UIViewController <G8TesseractDelegate>
+@interface ViewController : UIViewController <G8TesseractDelegate,
+                                              UIImagePickerControllerDelegate,
+                                              UINavigationControllerDelegate>
 
 @property (weak, nonatomic) IBOutlet UIImageView *imageToRecognize;
 

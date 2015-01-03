@@ -31,6 +31,17 @@
     // Dispose of any resources that can be recreated.
 }
 
+- (IBAction)openCamera:(UIButton *)sender {
+    UIImagePickerController *imgPicker = [UIImagePickerController new];
+    imgPicker.delegate = self;
+    
+    if([UIImagePickerController isSourceTypeAvailable:UIImagePickerControllerSourceTypeCamera])
+    {
+        imgPicker.sourceType = UIImagePickerControllerSourceTypeCamera;
+        [self presentViewController:imgPicker animated:YES completion:nil];
+    }
+}
+
 -(void)recognizeImageWithTesseract:(UIImage *)image {
     UIImage *bwImage = [image g8_blackAndWhite];
     self.imageToRecognize.image = bwImage;
@@ -55,8 +66,18 @@
     };
     [self.operationQueue addOperation:operation];
 }
+
 - (IBAction)recognizeButtonPressed:(UIButton *)sender {
     [self recognizeImageWithTesseract:[UIImage imageNamed:@"image_sample.jpg"]];
+}
+
+#pragma mark - UIImagePickerController Delegate
+
+- (void)imagePickerController:(UIImagePickerController *)picker
+didFinishPickingMediaWithInfo:(NSDictionary *)info {
+    UIImage *image = info[UIImagePickerControllerOriginalImage];
+    [picker dismissViewControllerAnimated:YES completion:nil];
+    [self recognizeImageWithTesseract:image];
 }
 
 @end
