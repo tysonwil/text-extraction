@@ -68,7 +68,7 @@
 }
 
 - (IBAction)recognizeButtonPressed:(UIButton *)sender {
-    [self recognizeImageWithTesseract:[UIImage imageNamed:@"image_sample.jpg"]];
+    [self recognizeImageWithTesseract:[UIImage imageNamed:@"OCR_Font_Example.gif"]];
 }
 
 #pragma mark - UIImagePickerController Delegate
